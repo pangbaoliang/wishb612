@@ -1,0 +1,114 @@
+*{
+	margin: 0 ;
+	padding: 0;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/*头部*/
+
+header{
+	height: 44px;
+	background-color: #c10000;
+	text-align: center;
+}
+header>.imgtoleft{
+	float: left;
+	height: 90%;
+	width: 44px;
+	height: 44px;
+}
+header>.imgtoright{
+	float: right;
+	height:90%;
+	width: 44px;
+	height: 44px;
+}
+header>h2{
+	text-align: center;
+	color:white;
+	line-height: 44px;
+	display:inline-block;	
+	text-align: center;
+}
+nav{
+	padding: 10px;	
+}
+nav>ul>li{
+	float:left;
+	border-top: 1px solid #e7e7ed;
+	border-left:1px solid #E7E7ED;
+	box-sizing: border-box;
+	/*?????*/
+	width: 25%;
+	height: 72px;
+	text-align: center;	
+}
+nav>ul>li:nth-child(n+4){
+	border-bottom: 1px solid #E7E7ED;
+}
+nav>ul>li:nth-child(4n){
+	border-right: 1px solid #E7E7ED;
+}
+nav>ul>li:nth-child(1){
+	border-top-left-radius: 5px;
+}
+nav>ul>li:nth-child(4){
+	border-top-right-radius: 5px;
+}
+nav>ul>li:nth-child(5){
+	border-bottom-left-radius: 5px;
+}
+nav>ul>li:nth-child(8){
+	border-bottom-right-radius: 5px;
+}
+/*before 的用法*/
+nav>ul>li>a:before{
+	content: "";
+	display: block;
+	background: red url(../img/5B2D39C1E61A651E4CDE8981A703DC8D.png) no-repeat;
+	background-size: 30px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 16px;
+	margin-top: 18px;
+	line-height:88px;
+}
+nav>ul>li:nth-child(1)>a:before{
+	background-color:#ff0000;
+	background-position:0px  2px;	
+}
+nav>ul>li:nth-child(2)>a:before{
+	background-color:#800080;
+	background-position:0px  -43px;	
+}
+nav>ul>li:nth-child(3)>a:before{
+	background-color:#00ffff;
+	background-position:0px  -86px;	
+}
+nav>ul>li:nth-child(4)>a:before{
+	background-color:#008000;
+	background-position:0px  -130px;	
+}
+nav>ul>li:nth-child(5)>a:before{
+	background-color:#531408;
+	background-position:0px  -178px;	
+}
+nav>ul>li:nth-child(6)>a:before{
+	background-color:#faab02;
+	background-position:0px  -217px;	
+}
+nav>ul>li:nth-child(7)>a:before{
+	background-color:#68b227;
+	background-position:0px  -260px;	
+}
+nav>ul>li:nth-child(8)>a:before{
+	background-color:#dddddd;
+	background-position:0px  -307px;	
+}

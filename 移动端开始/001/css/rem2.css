@@ -1,0 +1,14 @@
+div{
+	float: left;
+	display: block;
+}
+#d1{
+	width: 30%;
+	background-color: orange;
+	height: 200px;
+}
+#d2{
+	width: 70%;
+	background-color:green;
+	height: 200px;
+}
